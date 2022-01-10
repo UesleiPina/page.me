@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uesleipina.me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">U.P.</a>
+            <div class="toggle"></div>
+        </header>
+        <img src="imgs/man.png" class="men">
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello,</h4>
+                <h2>I'm Ueslei Pina</h2>
+                <h3>Systems of Information Student at USP</h3>
+                <p>Imagination is more important than knowledge. For knowledge is limited, whereas
+                    imagination embraces the entire world, stimulating progress, giving birth to
+                    evolution." — Albert Einstein</p>
+                <a href="#">Hire me</a>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+
+        <u1 class="sci">
+            <li><a href="#"><img src="imgs/facebook.png"></a></li>
+            <li><a href="#"><img src="imgs/github.png"></a></li>
+            <li><a href="#"><img src="imgs/linkedin.png"></a></li>
+        </u1>
+
+        <u1 class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+        </u1>
+    </section>
+
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.onclick = function() {
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
